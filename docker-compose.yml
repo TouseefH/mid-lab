@@ -1,0 +1,23 @@
+version: "3"
+services:
+  database-service:
+    image: postgres:13.3
+    environment:
+      POSTGRES_USER: Touseef
+      POSTGRES_PASSWORD: 2200995
+      POSTGRES_DB: BSIT-5B
+    ports:
+      - "5432.:5432."
+    volumes:
+      - ./mydatabase:/var/lib/postgresql/data
+  cache-service:
+    image: redis:alpine
+    ports:
+      - "6379:6379"
+      
+networks:
+      - my-network
+
+
+
+
