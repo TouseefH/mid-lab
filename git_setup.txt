@@ -13,3 +13,9 @@ Task 2:
 setting up a docker -compose file
 making .env file
 set up for .gitignore
+
+
+Task 3:
+merging branches 
+compare pull requests
+conflict resolve 
