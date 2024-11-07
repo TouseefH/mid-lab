@@ -21,3 +21,4 @@ compare pull requests
 conflict resolve 
 
 Task 4:
+documentation in readme file
