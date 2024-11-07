@@ -7,15 +7,17 @@ services:
       POSTGRES_PASSWORD: 2200995
       POSTGRES_DB: BSIT-5B
     ports:
-      - "5432.:5432."
+      - "5432:5432"
+    networks:
+      - my-network
+
   cache-service:
     image: redis:alpine
     ports:
       - "6379:6379"
-      
-networks:
+    networks:
       - my-network
 
-
-
-
+networks:
+  my-network:
+    driver: bridge
