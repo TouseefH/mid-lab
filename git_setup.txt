@@ -1,0 +1,7 @@
+git init
+git remote add origin https://github.com/TouseefH/mid-lab.git
+git add .
+git commit -m " my first commit"
+git branch develop
+git database-service
+git cache-service
