@@ -8,8 +8,6 @@ services:
       POSTGRES_DB: BSIT-5B
     ports:
       - "5432.:5432."
-    volumes:
-      - ./mydatabase:/var/lib/postgresql/data
   cache-service:
     image: redis:alpine
     ports:

@@ -10,6 +10,6 @@ git database-service
 git cache-service
 
 Task 2:
-
+setting up a docker -compose file
 making .env file
 set up for .gitignore
